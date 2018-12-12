@@ -17,17 +17,17 @@ This module generates a bunch of trajectories at different initial speeds within
 
 
 #Install the following:
-OpenCV 3: https://www.learnopencv.com/install-opencv3-on-ubuntu/
-python -mpip install matplotlib
+1. OpenCV 3: https://www.learnopencv.com/install-opencv3-on-ubuntu/
+2. python -mpip install matplotlib
 
 
 #To build and run:
-cd cpp
-mkdir build
-cd build
-cmake ..
-make
-./planner 0
+1. cd cpp
+2. mkdir build
+3. cd build
+4. cmake ..
+5. make
+6.  ./planner 0
 
 
 #Different test cases are implemented:
