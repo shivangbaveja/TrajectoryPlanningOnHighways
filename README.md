@@ -2,7 +2,7 @@
 Planning and Decision Making 16-721 Course Project
 
 #Code modules:
-1. Trajectory generation module written in python3. Path optimization is done using iterative numerical method described in https://www.learnopencv.com/install-opencv3-on-ubuntu/.
+1. Trajectory generation module written in python3. Path optimization is done using iterative numerical method described in http://www.cs.cmu.edu/~alonzo/pubs/papers/ijrr02TrajGen.pdf.
 The curvature is assumed to be cubic polynomial of curve length. Here is a brief description of the optimization algo:
 	1. parameters: curvarture at (1/3) curve length k1, curvarture at (2/3) curve length k2, final curvature k3, curve length s
 	2. cost: euclidean distance of goal configuration and current state
